@@ -1,0 +1,74 @@
+* {
+  border:  none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-attachment: fixed;
+}
+.phone {
+  margin: 50px auto 0;
+  overflow: auto;
+  background-image: url(Phone.png);
+  display: block;
+  width: 800px;
+}
+.console {
+  border-style: none;
+  padding: 1px;
+  overflow: scroll;
+  clear: none;
+  height: 300px;
+  width: 800px;
+  font-style: normal;
+  text-align: left;
+  font-weight: bold;
+  text-transform: none;
+  background-image: url(images/Message-Console.png);
+  background-position: center top;
+  background-attachment: fixed;
+  float: left;
+  position: absolute;
+  visibility: visible;
+  font-family: Aqua Grotesque;
+  color: #73feca;
+  font-size: x-large;
+  z-index: -3;
+}
+.pageLeftMenu {
+  clear: none;
+  height: 600px;
+  width: 160px;
+}
+.pageContent {
+  clear: none;
+  height: 600px;
+  width: 680px;
+}
+.pageRightMenu {
+  clear: none;
+  height: 600px;
+  width: 160px;
+}
+.pageFooter {
+  float: left;
+  clear: none;
+  height: 100px;
+  width: 800px;
+}
+.pageHeader {
+  clear: none;
+  height: 200px;
+  width: 800px;
+}
+.pageContent {
+  clear: none;
+  height: 600px;
+  width: 800px;
+}
+.pageFooter {
+  float: left;
+  clear: none;
+  height: 100px;
+  width: 800px;
+}
